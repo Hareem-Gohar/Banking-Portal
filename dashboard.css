@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Manrope';
+}
+.container-fluid{
+    padding: 0px !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 30px;
+    background-color: rgb(146, 179, 179);
+}
+.About-User{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    color:rgb(33, 105, 48);
+}
+.you{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 105, 48);
+    padding: 8px;
+    font-size: 20px;
+}
+.list{
+    list-style: none;
+    padding-left: 20px;
+}
+.side-bar{
+    background-color:white;
+    flex: 12%;
+    height: 619px;
+}
+.sidebar-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    padding: 60px 20px;
+}
+.sidebar-list li{
+    text-align: center;
+    background-color: rgb(146, 179, 179);
+    border-radius: 10px;
+    border: 2px solid rgb(33, 105, 48)  ;
+    padding: 8px;
+    font-size: 20px;
+}
+.sidebar-list a{
+    color:rgb(33, 105, 48)   ;
+    text-decoration: none;
+    font-family: 'Noto Serif';
+    font-weight: 800;
+
+}
+i{
+    color:rgb(33, 105, 48)  ;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.section-2{
+    flex: 30%;
+    height: 619px;
+}
+.second-block{
+    display: flex;
+    flex-direction: column;
+}
+.section-3{
+    flex: 25%;
+    margin: 10px;
+}
+.Card{
+    margin-top: 20px;
+    height: 230px;
+    background-color:white;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid rgb(33, 105, 48)  ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.image{
+    padding: 20px;
+    height: 30px;
+    width: 350px;
+}
+.Transfer-Add{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px 0px;
+}
+
+.Add {
+    height: 60px;
+    width: 140px;
+    border: 2px solid rgb(33, 105, 48)  ;
+    background-color: rgb(146, 179, 179);
+    color:rgb(33, 105, 48) ;
+    font-family: 'Noto Serif';
+    font-size: 20px;
+    font-weight: 600;
+}
+.Add:hover{
+    border: 2px solid rgb(146, 179, 179) !important;
+    color: rgb(253, 253, 253) !important;
+    background-color:rgb(33, 105, 48) !important ;
+}
+.Transfer {
+    height: 60px;
+    width: 140px;
+    border: 2px solid rgb(33, 105, 48)  ;
+    background-color: rgb(146, 179, 179);
+    color:rgb(33, 105, 48) ;
+    font-family: 'Noto Serif';
+    font-size: 20px;
+    font-weight: 600;
+}
+.Transfer:hover{
+    border: 2px solid rgb(146, 179, 179) !important;
+    color: rgb(253, 253, 253) !important;
+    background-color:rgb(33, 105, 48) !important ;
+}
+.My-CASH{
+    margin-right: 20px ;
+    border: 2px solid rgb(33, 105, 48)  ;
+    margin-top: 20px;
+    height: 150px;
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.account-details{
+    margin-right: 10px;
+}
+.balance{
+    padding: 15px 20px;
+    color:rgb(33, 105, 48) ;
+    font-family: 'Noto Serif';
+    font-weight: 600;
+}
+.rupees{
+    padding: 5px 20px;
+    color:rgb(33, 105, 48) ;
+    font-family: 'Noto Serif';
+    font-weight: 600;
+}
+.chart{
+    width: 500px;
+     height:300px;
+     margin-top: 30px;
+}
+  .recent-transactions-box {
+    margin-top: 30px;
+    margin-right: 20px ;
+    height: 350px;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(33, 105, 48)  ;
+    color:rgb(33, 105, 48) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .box-heading {
+    font-family: 'Noto Serif';
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transaction-item {
+    font-family: 'Noto Serif';
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for modal and overlay */
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+} */
+
+
+
+
